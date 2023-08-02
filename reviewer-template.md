@@ -32,6 +32,7 @@ Consider the following questions:
 - Is there evidence of user need for this output?
 - Is there evidence of user research regarding the approach taken to create this output?
 - What alternative methods were considered and why were they rejected?
+- What techniques have other people used to measure a similar output?
 
 
 ### Verification of methods
