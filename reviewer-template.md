@@ -27,8 +27,12 @@ Consider the following questions:
 - How does the product manage dependencies on software and data?
 - How is the product tested?
 
-
 ### Validity of method
+
+- Is there evidence of user need for this output?
+- Is there evidence of user research regarding the approach taken to create this output?
+- What alternative methods were considered and why were they rejected?
+
 
 ### Verification of methods
 
@@ -43,4 +47,10 @@ Consider the following questions:
 ### Working practices of team
 
 - Is the product version controlled?
+- Are the team appropriately skilled given the complexity of the work?
+- Do team members have a good understanding of the limitations of the inputs, methods and 
+- Is there pressure on the team to deliver to timelines at the expense of accuracy, quality or calculation/communication of uncertainty?
+- Do managers of the product allow for open and transparent discussions of concerns and risks, escalated when appropriate?
+
+
 
