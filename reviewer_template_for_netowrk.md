@@ -98,7 +98,6 @@ Consider the following questions:
 
 - How easy was the product to reproduce by you? Was there enough documentation to do so?
 
-
 ### Things to consider
 Suggestions should be tailored to the code that you are reviewing. Provide context.
 Be critical and clear, but not mean. Ask questions and set actions.
