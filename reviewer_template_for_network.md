@@ -8,7 +8,7 @@
 </details>
  
 *This pr introduces....*
-## Type of change
+## Type of review
 
 *You can delete options that are not relevant.*
 
@@ -16,6 +16,7 @@
 - [ ] New feature - *non-breaking change*
 - [ ] Breaking change - *backwards incompatible change, changes expected behaviour*
 - [ ] Non-user facing change, structural change, dev functionality, docs ...
+- [ ] Complete code review (first time)
 
 ## Checklist:
 
