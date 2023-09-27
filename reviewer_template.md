@@ -1,60 +1,56 @@
-## Description
-<details><summary>Please include a summary of the changes</summary>
+# {{ date of review yyyy-mm-dd }} - {{ product title }} peer review
 
-  - What is this change?
-  - What does it fix?
-  - Is this a bug fix or a feature and does it break any existing functionality?
-  - How has it been tested?
-</details>
- 
-*This pr introduces....*
-## Type of change
+{{ name of reviewer }}
 
-*You can delete options that are not relevant.*
+## Scope of review
 
-- [ ] Bug fix - *non-breaking change*
-- [ ] New feature - *non-breaking change*
-- [ ] Breaking change - *backwards incompatible change, changes expected behaviour*
-- [ ] Non-user facing change, structural change, dev functionality, docs ...
+{{ delete as appropriate 
 
-## Checklist:
+- [ ] Code review
+- [ ] Validity of method to question
+- [ ] Verification of methods
+- [ ] Documentation
+- [ ] Working practices of team }}
 
-- [ ] I have performed a self-review of my own code
-- [ ]  I have commented my code appropriately, focusing on explaining my design decisions (explain why, not how)
-- [ ] I have made corresponding changes to the documentation (comments, docstring, etc.. )
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] I have updated the change log
-- [ ] I have checked the pipeline runs with test data
+Give details about what you have been asked to review.
 
-<br>
+## General comments
 
-#  Peer review
-Any new code includes all the following forms of documentation:
+Consider the following questions:
+- has the product been reviewed before? If so, what changes have been made since the last review?
 
-- [ ] **Documentation**: docstrings, comments have been added/ updated
-- [ ] **[Style guidelines](https://confluence.ons.gov.uk/display/PP/Style+guidelines)**: New code conforms to the project's contribution guidelines
-- [ ] **[Functionality](https://confluence.ons.gov.uk/display/PP/Functionality)**: The code works fully implements the requirements and works as expected, handles expected edge cases, exceptions are handled appropriately
-- [ ] **[Complexity](https://confluence.ons.gov.uk/display/PP/Complexity)**: The code is not overly complex, logic has been split into appropriately sized functions, etc..
-- [ ] **[Test coverage](https://confluence.ons.gov.uk/display/PP/Test+coverage)**: Unit tests cover essential functions for a reasonable range
 
-  of inputs and conditions. Added and existing tests pass on my machine.
+## Detailed comments
 
-### Review comments
-Suggestions should be tailored to the code that you are reviewing. Provide context.
-Be critical and clear, but not mean. Ask questions and set actions.
-<details><summary>These might include:</summary>
+### Code review
 
-- bugs that need fixing (does it work as expected? and does it work with other code
-  that it is likely to interact with?)
-- alternative methods (could it be written more efficiently or with more clarity?)
-- documentation improvements (does the documentation reflect how the code actually works?)
-- additional tests that should be implemented
-  - Do the tests effectively assure that it
-  works correctly? Are there additional edge cases/ negative tests to be considered?
-- code style improvements (could the code be written more clearly?)
-</details>
-<br>
+- How does the product manage dependencies on software and data?
+- How is the product tested?
 
-*Further reading: [code review best practices](https://best-practice-and-impact.github.io/qa-of-code-guidance/peer_review.html)*
+### Validity of method
+
+- Is there evidence of user need for this output?
+- Is there evidence of user research regarding the approach taken to create this output?
+- What alternative methods were considered and why were they rejected?
+- What techniques have other people used to measure a similar output?
+
+
+### Verification of methods
+
+- How easy was the product to reproduce by you? Was there enough documentation to do so?
+
+### Documentation
+
+- Does the product have an assumptions log, a data register, a list of roles and responsibilities?
+- Is it easy to find out why decisions have been made?
+
+
+### Working practices of team
+
+- Is the product version controlled?
+- Are the team appropriately skilled given the complexity of the work?
+- Do team members have a good understanding of the limitations of the inputs, methods and 
+- Is there pressure on the team to deliver to timelines at the expense of accuracy, quality or calculation/communication of uncertainty?
+- Do managers of the product allow for open and transparent discussions of concerns and risks, escalated when appropriate?
+
 
